@@ -7,9 +7,20 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:"Paytone One";
     font-size:4rem;
+    color: #4E5D6B;
     
 }
 
 header {
     text-align: center;
+}
+
+#hero {
+    text-align: center;
+    background: #4F85B8;
+
+}
+
+#hero img {
+    width: 350px;
 }
