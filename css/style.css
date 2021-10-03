@@ -2,7 +2,6 @@ body {
     background-color: #AECFEE;
     color: #2E4E6B;
     font-family:Roboto;
-    font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,13 +15,18 @@ header {
     text-align: center;
 }
 
-#hero {
+#hero, footer {
     text-align: center;
     background: #4F85B8;
+    color: #4E5D6B;
     padding:10px;
 
 }
 
 #hero img {
     width: 350px;
+}
+
+#bio {
+    text-align: center;
 }
