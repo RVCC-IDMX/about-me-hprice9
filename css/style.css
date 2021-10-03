@@ -1,4 +1,10 @@
 body {
-    background-color: #EE9879;
-    
+    background-color: #AECFEE;
+    color: #2E4E6B;
+    font-family:Roboto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Paytone One";
+    font-size:5rem;
 }
