@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family:"Paytone One";
     font-size:4rem;
     color: #4E5D6B;
+    text-align: center;
     
 }
 
@@ -30,3 +31,10 @@ header {
 #bio {
     text-align: center;
 }
+
+#hobbies li:nth-child(2) span {
+    background-color: darkslateblue;
+    box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2),
+    inset 0 0 12px black;
+     text-align: center;
+    }
