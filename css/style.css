@@ -43,7 +43,7 @@ header {
 /* Gallery */
 
     #gallery {
-        border: 4px solid #444E5D6B;
+        border: 5px solid #444E5D6B;
         align-items: center;
     }
 
@@ -55,8 +55,15 @@ header {
 /* Lit Ipsum */
 
     #lit {
-        border: 4px solid #444E5D6B;
+        border: 5px solid #444E5D6B;
+        margin: bottom 2px;
         text-align: center;
         background-color: #AECFEE;
         color: black;
+    }
+
+    #lit div {
+        padding:2rem;
+        max-width: 40rem;
+        margin: 0 auto;
     }
