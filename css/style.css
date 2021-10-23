@@ -76,8 +76,8 @@ header {
         margin: 0 auto;
 
     @media screen
-       {min-width: 60 em
-        display:grid;}
+       min-width: 60 em
+        display:grid;
     grid-template-columns: 2fr 1fr;
     display:flex;
     justify-content: center;
