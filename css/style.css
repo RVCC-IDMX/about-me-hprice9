@@ -38,6 +38,9 @@ header {
     box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2),
     inset 0 0 12px black;
     text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
     }
 
 /* Gallery */
@@ -60,10 +63,25 @@ header {
         text-align: center;
         background-color: #AECFEE;
         color: black;
+        max-width:100%;
+        columns: 40rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: none;
     }
 
     #lit div {
         padding:2rem;
         max-width: 40rem;
         margin: 0 auto;
+
+    @media screen
+       {min-width: 60 em
+        display:grid;}
+    grid-template-columns: 2fr 1fr;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
     }
