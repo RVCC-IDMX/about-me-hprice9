@@ -64,13 +64,8 @@ header {
         background-color: #AECFEE;
         color: black;
         max-width:100%;
-        columns: 20rem;
+        columns: 40rem;
         font-size: small;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        display: none;
-
     }
 
     #lit div {
@@ -87,4 +82,8 @@ header {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: none;
+
     }
