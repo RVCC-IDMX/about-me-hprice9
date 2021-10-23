@@ -65,9 +65,7 @@ header {
         color: black;
         max-width:100%;
         columns: 40rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        display: none;
+
     }
 
     #lit div {
